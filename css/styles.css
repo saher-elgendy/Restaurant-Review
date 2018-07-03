@@ -164,7 +164,7 @@ nav h1 a {
 
 #restaurants-list li {
   background-color: #fff;
-  /*border: 2px solid #ccc;*/
+  border: 2px solid #ccc;
   font-family: Arial,sans-serif;
   margin-bottom: 2vh;
   min-height: 380px;*/
@@ -216,7 +216,7 @@ nav h1 a {
   text-transform: uppercase;
 }
 
-#restaurants-list li a:hover, #restaurants-list li a:hover{
+#restaurants-list li a:hover, #restaurants-list li a:focus{
   background-color: gold;
   color: black;
 }
@@ -423,7 +423,7 @@ nav h1 a {
 
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 600px) {
   .inside #map-container {
     width: 100%;
     margin: auto;
@@ -441,5 +441,7 @@ nav h1 a {
     margin: auto;
     order: 2;
   }
+
+
 
 }
