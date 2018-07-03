@@ -217,15 +217,15 @@ nav h1 a {
 }
 
 #restaurants-list li a:hover, #restaurants-list li a:focus{
-  background-color: gold;
+  background-color: orange;
   color: black;
 }
 /* ====================== Restaurant Details ====================== */
 
-#maincontent {
+#restaurant-maincontent {
   width: 100%;
   display: flex;
-  flex-wrap: wrap
+  flex-wrap: wrap;
 }
 
 
