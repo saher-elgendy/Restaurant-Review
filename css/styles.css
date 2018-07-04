@@ -167,15 +167,14 @@ nav h1 a {
   border: 2px solid #ccc;
   font-family: Arial,sans-serif;
   margin-bottom: 2vh;
-  min-height: 380px;*/
   text-align: left;
   width: 30%;
   padding: 1em;
 }
 
 #restaurants-list li:hover {
- transform: scale(1.1);
- transition: 0.7s ease;
+  transform: scale(1.1);
+  transition: 0.7s ease;
 }
 
 #restaurants-list .restaurant-img {
@@ -183,7 +182,6 @@ nav h1 a {
   display: block;
   margin: 0;
   max-width: 100%;
-  min-height: 248px;
   height: auto;
   min-width: 100%;
 }
@@ -394,11 +392,6 @@ nav h1 a {
   color: #fff;
 }
 
-@media screen and (max-width: 800px) {
-  #restaurants-list li {
-     width: 45%;
-  }
-}
 
 @media screen and (max-width: 600px) {
 
@@ -413,14 +406,6 @@ nav h1 a {
   }
 
  
-}
-
-@media screen and (max-width: 400px) {
-  #restaurants-list li {
-    width: 100%;
-    margin-bottom: 2vh;
-  }
-
 }
 
 @media screen and (max-width: 700px) {
@@ -445,3 +430,4 @@ nav h1 a {
 
 
 }
+
