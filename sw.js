@@ -1,14 +1,15 @@
 // servic worker
 (() => {
    // registering service worker
-   if(!navigator.serviceWorker) return;
-   navigator.serviceWorker.register('/sw.js').then(() => console.log('service worker registered')).catch(() => console.log('service worker not registered'))
-  
+   if('serviceWorker' in navigator) {
+      navigator.serviceWorker.register('/sw.js').then(() => console.log('service worker registered')).catch(() => console.log('service worker not registered'))
+   }
   // assets to cach
 
   const filesToBeCached = [
     '/',
     '/index.html',
+    '/restaurant.html',
     '/css/styles.css',
     '/js/dbhelper.js',
     '/js/main.js',
